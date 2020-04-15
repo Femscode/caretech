@@ -1,40 +1,17 @@
-<DOCTYPE html>
-    <html>
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <head>
-    
-        </head>
-    </html>
-    <form> 
-        <div class='inside'>
-           <h1> A Novelty COVID-19 infections estimator</h1>
-        </div>
-        <div class='inside'>
-            Population:<br>
-        <input class='input' type='number' name='population' id='data-population'></div><br> 
-        <div class='inside'>
-            Time to Elapse<br>
-        <input type='number' name='timetoElapse' id='data-time-to-elapse'></div><br>
-        <div class='inside'>
-            Reported Cases<br>
-        <input type='number' name='reportedCases' id='data-reported-cases'></div><br>
-        <div class='inside'>
-            Total Hospital Beds<br>
-        <input type='number' name='totalHospitalBeds' id='data-total-hospital-beds'></div><br>
-        <div class='inside'>
-            
-            Select the Period Type<br>
-        <select name='periodType' id='data-period-type'>
-            <option value='days'>Days</option>
-            <option value='weeks'>Weeks</option>
-            <option value='months'>Months</option></select></div>   
-            <!-- <div class='inside'> -->
-        <button class='submit' id='data-go-estimate' type='submit' onclick='datagoestimate();'>Submit</button>    
-    <!-- </div> -->
-    <br>
-    <div class='inside' style='visibility: hidden' id='show'>
-        <h1 id='show'></h1>
-    </div>
-    </form>
-    <script src="estimator.js"></script>
-       
+# #BuildForSDG Cohort-1 JavaScript Assessment
+
+> Build an overly simplified COVID-19 infection impact estimator
+
+This is an eligibility assessment for the 2020 [#BuildforSDG](https://buildforsdg.andela.com/) program
+
+The assessment empowers me to **attempt** helping society and leaders prepare for the **real big problem** of COVID-19, which is **its impact on lives, health systems, supply chains, and the economy**: 
+> 1.  Too many patients, not enough hospitals and beds. A serious shortage of ventilators, masks and other PPE - if *we don’t practice social distancing*.
+> 2.  Job losses or freezes, low cash flow and low production (even for essentials like food). These and more from too many people being sick, a sizable number dying (including some of the best people in many fields), and many others affected by the impact of losing loved ones or a world operating in slow motion
+
+## How To Proceed
+
+### Project Setup & Submission Process
+
+> Go to [this Google Drive](https://drive.google.com/drive/u/0/folders/132af5VHpYX5LDTzqQETThXpDpw6Q6jRv) for guides on [how to setup your project](https://drive.google.com/file/d/1izTv3RdKwJf2V0RsarRc2ULDemKEAC16/view), take the assessment in one of the supported programming languages (Javascript, Python, or PHP), and how to submit your work. Make sure you read the instructions carefully, because missing a step might cost you in the long run.
+---
+
